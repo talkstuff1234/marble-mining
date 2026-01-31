@@ -2,6 +2,11 @@ import Navbar from "@/components/layout/Navbar";
 import "./globals.css";
 import Footer from "@/components/layout/Footer";
 
+export const metadata = {
+  title: "Westland Minerals & Mining ltd",
+  description: "Building Value Through Responsible Mining",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{

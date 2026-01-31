@@ -9,10 +9,12 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/who-we-are" },
-  { name: "Operations and Projects", href: "/operations-and-propjects" },
-  { name: "Our Subsidiaries", href: "/subsidiaries" },
+  { name: "Operations and Projects", href: "/operations-and-projects" },
+  { name: "Sustainabilty", href: "/sustainability" },
+  { name: "Leadership and Governance", href: "/leadership-and-governance" },
+  { name: "Our Products", href: "/our-products" },
+
   // { name: "Oprating Principles", href: "/operating-principles" },
-  // { name: "Leadership and Governance", href: "/leadership-and-governance" },
   // { name: "News and Update", href: "/news-and-update" },
 
   // { name: "Governance", href: "/governance" },
@@ -75,17 +77,19 @@ export default function Navbar() {
         {/* Logo */}
         <Link
           href="/"
-          className="bg-white px-3 sm:px-2 py-1 sm:py-1 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg"
           aria-label="Marble Group Home"
+          className="flex items-center"
         >
-          <Image
-            src={assets.icons.logo}
-            alt="Marble Group Logo"
-            width={60}
-            height={60}
-            className="w-12 h-12 sm:w-20 sm:h-20"
-            priority
-          />
+          <span className="bg-white rounded-full p-2 shadow-lg flex items-center justify-center">
+            <Image
+              src={assets.icons.logo}
+              alt="Marble Group Logo"
+              width={160}
+              height={48}
+              priority
+              className="h-6 sm:h-8 w-auto object-contain"
+            />
+          </span>
         </Link>
 
         {/* Desktop Navigation (Glass) */}
