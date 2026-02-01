@@ -74,7 +74,158 @@ export default function OperationsAndProjects() {
           </div>
         </section>
       </header>
+      <section className="w-full bg-[#F9F9F9] px-4 sm:px-6 py-16">
+        <div className="max-w-7xl mx-auto space-y-16">
+          {/* Top Section */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            {/* Image */}
+            <div className="rounded-2xl overflow-hidden">
+              <Image
+                src={assets.images.aboutImage1}
+                alt="Operating Bases"
+                width={600}
+                height={500}
+                className="w-full h-full object-cover"
+                priority
+              />
+            </div>
 
+            {/* Text */}
+            <div>
+              <h2 className="text-2xl sm:text-3xl font-medium text-[#212121]">
+                Operating Bases
+              </h2>
+              <p className="mt-2 text-sm text-[#6A6A6A]">
+                Nigeria & Regional Operations
+              </p>
+
+              <p className="mt-6 text-sm leading-relaxed text-[#4A4A4A]">
+                Westlands Minerals & Mining Ltd maintains active operating bases
+                across key mineral-rich regions in Nigeria, with additional
+                cross-border activities extending into Cameroon to support
+                regional mineral supply and trade.
+              </p>
+
+              <p className="mt-4 text-sm leading-relaxed text-[#4A4A4A]">
+                The company’s operating footprint reflects a focus on minerals
+                critical to infrastructure, industrial manufacturing, energy
+                systems, and strategic supply chains.
+              </p>
+            </div>
+          </div>
+
+          {/* Nigeria Operations */}
+          <div>
+            <h3 className="text-xl font-medium text-[#212121]">
+              Nigeria Operations
+            </h3>
+
+            <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {[
+                {
+                  title: "Nasarawa State",
+                  items: [
+                    "Akwanga Local Government Area – Lead & Zinc",
+                    "Toto Local Government Area – Wolframite",
+                  ],
+                },
+                {
+                  title: "Kano State",
+                  items: ["Riruwai – Tin"],
+                },
+                {
+                  title: "Bauchi State",
+                  items: ["Alkaleri – Lead & Zinc", "Gwana – Lead & Zinc"],
+                },
+                {
+                  title: "Bauchi State",
+                  items: ["Alkaleri – Lead & Zinc", "Gwana – Lead & Zinc"],
+                },
+              ].map((card, index) => (
+                <div
+                  key={index}
+                  className="rounded-xl border border-[#EFEFF3] bg-white p-4"
+                >
+                  <h4 className="text-sm font-medium text-[#212121]">
+                    {card.title}
+                  </h4>
+                  <ul className="mt-3 space-y-2 text-sm text-[#6A6A6A] list-disc list-inside">
+                    {card.items.map((item, i) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Regional Operations */}
+          <div className="">
+            <h3 className="text-xl font-medium text-[#212121]">
+              Regional Operations
+            </h3>
+
+            <div className="mt-4 rounded-xl border border-[#EFEFF3] bg-white p-5">
+              <h4 className="text-sm font-medium text-[#212121]">Cameroon</h4>
+              <p className="mt-2 text-sm text-[#6A6A6A] leading-relaxed">
+                Cross-border mineral sourcing and regional supply activities
+                supporting Westland Minerals & Mining Ltd’s broader
+                Africa-focused operations.
+              </p>
+            </div>
+          </div>
+
+          {/* Operational Advantage */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            {/* Text */}
+            <div>
+              <h3 className="text-xl font-medium text-[#212121]">
+                Operational Advantage
+              </h3>
+
+              <p className="mt-4 text-sm text-[#6A6A6A] leading-relaxed">
+                This geographically diversified operating base allows Westland
+                Minerals & Mining Ltd to:
+              </p>
+
+              <ul className="mt-6 space-y-3">
+                {[
+                  "Access multiple mineral belts and commodity types",
+                  "Maintain flexibility across jurisdictions",
+                  "Support consistent supply to domestic and international markets",
+                  "Strengthen regional mineral trade and logistics networks",
+                ].map((item, index) => (
+                  <li
+                    key={index}
+                    className="flex items-center gap-3 text-sm text-[#4A4A4A] p-2 rounded-full bg-white border border-[#EFEFF3]"
+                  >
+                    <span className="w-2.5 h-2.5 rounded-full bg-[#6B5A2B]" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <p className="mt-6 text-sm text-[#6A6A6A] leading-relaxed">
+                Westland Minerals & Mining Ltd’s operations are managed in
+                accordance with applicable regulatory frameworks, with a strong
+                emphasis on safety, environmental responsibility, and community
+                engagement.
+              </p>
+            </div>
+
+            {/* Image */}
+            <div className="rounded-2xl overflow-hidden">
+              <Image
+                src={assets.images.operationsImage12}
+                alt="Operational Advantage"
+                width={600}
+                height={450}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
       <main className="px-4 py-3">
         {/* OUR OPERATIONS */}
         <section
@@ -82,74 +233,6 @@ export default function OperationsAndProjects() {
           ref={operationsRef}
           className="max-w-7xl mx-auto px-6 py-2 reveal"
         >
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#B6BCCD] mb-6">
-              <Image src={assets.icons.icon1} alt="icon 1" />
-              <span className="text-sm text-[#6A6A6A]">
-                Responsible Mining and Value Creation in Nigeria
-              </span>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="relative w-full max-w-6xl mx-auto py-6">
-              {/* Background container */}
-              <div className="relative rounded-3xl overflow-hidden bg-black shadow-2xl">
-                {/* Background image */}
-                <Image
-                  src={assets.images.homeImage4}
-                  alt="Background grid"
-                  width={1400}
-                  height={800}
-                  className="w-full h-auto object-cover opacity-80"
-                  priority
-                />
-
-                {/* Overlay grid lines */}
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px]" />
-              </div>
-
-              {/* Floating card – left */}
-              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float">
-                <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
-                  <Image
-                    src={assets.images.operationsImage1}
-                    alt="Survey equipment"
-                    width={200}
-                    height={500}
-                    className="object-cover"
-                  />
-                </div>
-              </div>
-
-              {/* Floating card – right */}
-              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed">
-                <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
-                  <Image
-                    src={assets.images.operationsImage2}
-                    alt="Field work"
-                    width={260}
-                    height={160}
-                    className="object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <h2 className="text-3xl md:text-4xl text-[#212121] font-normal mb-6">
-                Strategic Operating Base - Kaduna
-              </h2>
-
-              <p className="text-[#6A6A6A] mb-8">
-                Kaduna provides Westlands Minerals & Mining Ltd with proximity
-                to mineralized states across the
-                Zamfara–Kaduna–Plateau–Nasarawa–Benue–Bauchi corridor,
-                supporting logistics efficiency and long-term beneficiation
-                potential.
-              </p>
-            </div>
-          </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-20">
             <div>
               <h2 className="text-3xl md:text-4xl text-[#212121] font-normal">

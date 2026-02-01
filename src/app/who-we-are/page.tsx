@@ -34,7 +34,7 @@ export default function About() {
   const purposeRef = useReveal<HTMLElement>();
   const visionRef = useReveal<HTMLElement>();
   const strategyRef = useReveal<HTMLElement>();
-  const governanceRef = useReveal<HTMLElement>();
+  // const governanceRef = useReveal<HTMLElement>();
   const forwardRef = useReveal<HTMLElement>();
 
   return (
@@ -62,10 +62,14 @@ export default function About() {
 
             <div className="mt-6 space-y-4 max-w-2xl mx-auto">
               <p className="text-white/80 text-sm md:text-base">
-                Westlands Minerals & Mining Ltd is a Nigeria-based mining
-                company headquartered in Kaduna, focused on the responsible
-                exploration and development of mineral resources across
-                strategic regions of the country.
+                A Nigerian Mining Company Focused on Responsible Resource
+                Development
+              </p>
+              <p className="text-white/80 text-sm md:text-base">
+                Westland Minerals & Mining Ltd is a Nigeria-based mining company
+                headquartered in Jos, focused on the responsible exploration and
+                development of mineral resources across strategic regions of the
+                country.
               </p>
               <p className="text-white/80 text-sm md:text-base">
                 The company is committed to building a mining business that
@@ -103,15 +107,18 @@ export default function About() {
               </h2>
 
               <p className="mt-4 text-[#6A6A6A] max-w-lg">
-                The purpose of Westlands Minerals & Mining Ltd is to responsibly
-                develop Nigeria&apos;s mineral resources to support national
-                development, job creation, and long-term economic value.
+                Unlocking Nigeria’s Mineral Potential Responsibly
               </p>
 
               <p className="mt-4 text-[#6A6A6A] font-medium">
+                The purpose of Westland Minerals & Mining Ltd is to responsibly
+                develop Nigeria’s mineral resources to support national
+                development, job creation, and long-term economic value. This is
+                achieved by:
+              </p>
+              <p className="mt-4 text-[#6A6A6A] max-w-lg">
                 This is achieved by:
               </p>
-
               <ul className="mt-6 space-y-4">
                 <li className="inline-flex items-center gap-3 text-sm border border-[#EFEFF3] rounded-full p-2 hover:border-[#5B3A1B] transition-colors">
                   <span className="w-3 h-3 rounded-full bg-[#5B3A1B]" />
@@ -171,7 +178,7 @@ export default function About() {
             <div className="bg-white rounded-2xl p-2 space-y-4 hover:shadow-lg transition-shadow duration-300">
               <div className="relative w-full h-62 rounded-xl overflow-hidden">
                 <Image
-                  src={assets.images.aboutImage4}
+                  src={assets.images.aboutImage10}
                   alt="Our Vision"
                   fill
                   className="object-cover hover:scale-110 transition-transform duration-500"
@@ -190,7 +197,7 @@ export default function About() {
             <div className="bg-white rounded-2xl p-2 space-y-4 hover:shadow-lg transition-shadow duration-300">
               <div className="relative w-full h-62 rounded-xl overflow-hidden">
                 <Image
-                  src={assets.images.aboutImage5}
+                  src={assets.images.aboutImage11}
                   alt="Our Mission"
                   fill
                   className="object-cover hover:scale-110 transition-transform duration-500"
@@ -269,6 +276,9 @@ export default function About() {
           <div className="absolute bottom-4 w-[70%] left-4 right-4 bg-white rounded-xl p-4">
             <h4 className="font-medium text-[#212121]">Strategy</h4>
             <p className="text-sm text-[#6A6A6A] mt-1">
+              A Disciplined, Nigeria-Focused Growth Strategy
+            </p>
+            <p className="text-sm text-[#6A6A6A] mt-1">
               Westlands Minerals & Mining Ltd operates with a strategy aligned
               with Nigeria&apos;s mining sector reforms, emphasizing disciplined
               opportunity selection, operational excellence, responsible growth,
@@ -291,8 +301,8 @@ export default function About() {
               Operations & Footprints
             </h4>
             <p className="text-sm text-[#6A6A6A] mt-1">
-              Headquartered in Kaduna, Westlands Minerals & Mining Ltd evaluates
-              mineral opportunities across key geological regions in Nigeria,
+              Headquartered in Jos, Westland Minerals & Mining Ltd evaluates
+              mineral opportunities across key geological regions of Nigeria,
               supporting regulatory engagement, local employment, and regional
               economic development.
             </p>
@@ -332,43 +342,12 @@ export default function About() {
           <div className="absolute bottom-4 w-[70%] left-4 right-4 bg-white rounded-xl p-4">
             <h4 className="font-medium text-[#212121]">Community Engagement</h4>
             <p className="text-sm text-[#6A6A6A] mt-1">
-              Responsible mining at Westlands Minerals & Mining Ltd requires
+              Responsible mining at Westland Minerals & Mining Ltd requires
               ongoing engagement with host communities, focused on local
               employment, consultation, respect for land and culture, and shared
               value creation.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* GOVERNANCE */}
-      <section
-        id="governance"
-        ref={governanceRef}
-        className="w-full bg-[#14161A] text-white reveal"
-      >
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10 sm:py-12 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-          <h2 className="text-2xl sm:text-3xl font-semibold leading-tight">
-            History
-          </h2>
-
-          <p className="text-sm text-neutral-300 leading-relaxed">
-            Westlands Minerals & Mining Ltd was established to contribute to
-            Nigeria&apos;s mining sector through disciplined growth, regulatory
-            compliance, and responsible practices.
-          </p>
-        </div>
-
-        <div className="relative w-full h-[260px] sm:h-[320px] md:h-[420px] overflow-hidden">
-          <Image
-            src={assets.images.aboutImage9}
-            fill
-            className="object-cover object-center"
-            priority
-            quality={90}
-            alt="Governance"
-          />
-          <div className="absolute inset-0 bg-black/40" />
         </div>
       </section>
 

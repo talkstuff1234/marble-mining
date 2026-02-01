@@ -93,85 +93,122 @@ export default function LeadershipAndGovernance() {
         ========================== */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-end">
               {/* LEFT LARGE CARD */}
-              <div className="md:row-span-2 flex flex-col items-center text-center gap-3">
+              <div className="md:row-span-2 flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6 gap-3">
                 {/* IMAGE */}
-                <div className="relative w-44 h-56 rounded-2xl overflow-hidden bg-[#F7F7F7]">
+                {/* <div className="relative w-44 h-56 rounded-2xl overflow-hidden bg-[#F7F7F7]">
                   <Image
                     src={assets.images.leadershipImage3}
                     alt="President / Chief Executive Officer"
                     fill
                     className="object-contain"
                   />
+                </div> */}
+                <div>
+                  <p className="text-bold text-[#212121] mb-4 ">
+                    Sanusi Muhammed Bello
+                  </p>
+                  <span className="bg-white text-bold p-3 rounded-3xl">
+                    Director
+                  </span>
                 </div>
-
-                <p className="text-xs text-[#6A6A6A]">
-                  President / Chief Executive Officer
-                </p>
               </div>
 
               {/* TOP ROW */}
-              <div className="flex flex-col items-center text-center gap-3">
-                <div className="relative w-44 h-44 rounded-2xl overflow-hidden bg-[#F7F7F7]">
+              <div className="flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6 gap-3">
+                {/* <div className="relative w-44 h-44 rounded-2xl overflow-hidden bg-[#F7F7F7]">
                   <Image
                     src={assets.images.leadershipImage1}
                     alt="Chief Operating Officer"
                     fill
                     className="object-contain"
                   />
+                </div> */}
+                <div>
+                  <p className="text-bold text-[#212121] mb-4 ">
+                    Abdullahi Naziru Abdullahi
+                  </p>
+                  <span className="bg-white text-bold p-3 rounded-3xl">
+                    chairman
+                  </span>
                 </div>
-                <p className="text-xs text-[#6A6A6A]">
-                  Chief Operating Officer
-                </p>
               </div>
 
-              <div className="flex flex-col items-center text-center gap-3">
-                <div className="relative w-44 h-44 rounded-2xl overflow-hidden bg-[#F7F7F7]">
+              <div className="flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6 gap-3">
+                {/* <div className="relative w-44 h-44 rounded-2xl overflow-hidden bg-[#F7F7F7]">
                   <Image
                     src={assets.images.leadershipImage2}
                     alt="Chief Accountant"
                     fill
                     className="object-contain"
                   />
+                </div> */}
+                <div>
+                  <p className="text-bold text-[#212121] mb-4 ">
+                    Nuhu Umar Jallah
+                  </p>
+                  <span className="bg-white text-bold p-3 rounded-3xl">
+                    Director
+                  </span>
                 </div>
-                <p className="text-xs text-[#6A6A6A]">Chief Accountant</p>
               </div>
 
               {/* RIGHT LARGE CARD */}
-              <div className="md:row-span-2 flex flex-col items-center text-center gap-3">
-                <div className="relative w-44 h-56 rounded-2xl overflow-hidden bg-[#F7F7F7]">
+              <div className="md:row-span-2 flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6 gap-3">
+                {/* <div className="relative w-44 h-56 rounded-2xl overflow-hidden bg-[#F7F7F7]">
                   <Image
                     src={assets.images.leadershipImage6}
                     alt="Co-Founder"
                     fill
                     className="object-cover"
                   />
+                </div> */}
+                <div>
+                  <p className="text-bold text-[#212121] mb-4 ">
+                    Khalid Hashimu Dori
+                  </p>
+                  <span className="bg-white text-bold p-3 rounded-3xl">
+                    Chief Operation Officer
+                  </span>
                 </div>
-                <p className="text-xs text-[#6A6A6A]">Co – Founder</p>
               </div>
 
               {/* BOTTOM ROW */}
-              <div className="flex flex-col items-center text-center gap-3">
-                <div className="relative w-44 h-44 rounded-2xl overflow-hidden bg-[#F7F7F7]">
+              <div className="flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6 gap-3">
+                {/* <div className="relative w-44 h-44 rounded-2xl overflow-hidden bg-[#F7F7F7]">
                   <Image
                     src={assets.images.leadershipImage4}
                     alt="Secretary"
                     fill
                     className="object-contain"
                   />
+                </div> */}
+                <div>
+                  <p className="text-bold text-[#212121] mb-4 ">
+                    Kabiru Inuwa Muhammad
+                  </p>
+                  <span className="bg-white text-bold p-3 rounded-3xl">
+                    Mining Officer
+                  </span>
                 </div>
-                <p className="text-xs text-[#6A6A6A]">Secretary</p>
               </div>
 
-              <div className="flex flex-col items-center text-center gap-3">
-                <div className="relative w-44 h-44 rounded-2xl overflow-hidden bg-[#F7F7F7]">
+              <div className="flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6 gap-3">
+                {/* <div className="relative w-44 h-44 rounded-2xl overflow-hidden bg-[#F7F7F7]">
                   <Image
                     src={assets.images.leadershipImage5}
                     alt="Site Engineer"
                     fill
                     className="object-cover"
                   />
+                </div> */}
+                <div>
+                  <p className="text-bold text-[#212121] mb-4 ">
+                    Abdulrahman Aliyu Muhammad
+                  </p>
+                  <span className="bg-white text-bold p-3 rounded-3xl">
+                    Mining Officer
+                  </span>
                 </div>
-                <p className="text-xs text-[#6A6A6A]">Site Engineer</p>
               </div>
             </div>
           </div>

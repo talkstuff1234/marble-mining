@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { assets } from "@/assets/assets";
 import Image from "next/image";
+import Link from "next/link";
 
 /* -------- Intersection Observer Hook -------- */
 function useReveal<T extends HTMLElement>() {
@@ -80,17 +81,16 @@ export default function HomePage() {
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="#company-snapshot"
+                href="#our-operations"
                 className="px-6 py-3 rounded-full bg-white text-sm hover:bg-white/90 transition-colors"
               >
-                Explore Our Projects
+                Our Operations
               </a>
-              <a
-                href="#looking-forward"
-                className="px-6 py-3 rounded-full bg-white/20 text-white text-sm backdrop-blur-md hover:bg-white/30 transition-colors"
-              >
-                Get In Touch
-              </a>
+              <Link href="/contact">
+                <button className="px-6 py-3 rounded-full bg-white/20 text-white text-sm backdrop-blur-md hover:bg-white/30 transition-colors">
+                  Contact Us
+                </button>
+              </Link>
             </div>
           </div>
         </section>
@@ -235,7 +235,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl text-[#212121] font-normal">
-                Strategic Location — Kaduna
+                Strategic Location — Jos
               </h2>
 
               <p className="mt-4 text-[#6A6A6A] max-w-lg">
@@ -284,11 +284,11 @@ export default function HomePage() {
               </h2>
 
               <p className="mt-4 text-[#6A6A6A] max-w-lg font-bold">
-                Supporting Power, Industry & Economic Growth
+                Supporting Power, Industry, Energy & Strategic Security
               </p>
 
               <p className="mt-4 text-[#6A6A6A] max-w-lg">
-                The mineral focus of Westlands Minerals & Mining Ltd aligns with
+                The mineral focus of Westland Minerals & Mining Ltd aligns with
                 resources that support:
               </p>
 
@@ -311,12 +311,20 @@ export default function HomePage() {
                     Manufacturing and industrial development
                   </span>
                 </li>
+                <li className="inline-flex items-center gap-3 text-sm border border-[#EFEFF3] rounded-full p-2 hover:border-[#5B3A1B] transition-colors">
+                  <span className="w-3 h-3 rounded-full bg-[#5B3A1B]" />
+                  <span className="text-[#6A6A6A]">
+                    Defense, aerospace, and strategic security supply chains
+                  </span>
+                </li>
               </ul>
 
               <p className="mt-6 text-sm text-[#6A6A6A] max-w-lg">
-                This diversified focus supports resilience across commodity
-                cycles and aligns with Nigeria&apos;s mineral development
-                priorities.
+                These minerals are essential to modern infrastructure, advanced
+                manufacturing, and national resilience. This diversified focus
+                supports stability across commodity cycles and aligns with
+                Nigeria’s mineral development priorities, as well as Africa’s
+                growing role in global strategic materials supply chains.
               </p>
             </div>
           </div>

@@ -90,7 +90,7 @@ export default function ContactPage() {
                 <div>
                   <p className="font-medium">Phone Number</p>
                   <p className="text-white/70 mt-1">
-                    +2348088998990, +8039550868
+                    +2348088998990, +2348039550868
                   </p>
                 </div>
               </div>

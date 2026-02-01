@@ -9,10 +9,10 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/who-we-are" },
+  { name: "Our Products", href: "/our-products" },
   { name: "Operations and Projects", href: "/operations-and-projects" },
   { name: "Sustainabilty", href: "/sustainability" },
   { name: "Leadership and Governance", href: "/leadership-and-governance" },
-  { name: "Our Products", href: "/our-products" },
 
   // { name: "Oprating Principles", href: "/operating-principles" },
   // { name: "News and Update", href: "/news-and-update" },
@@ -74,7 +74,6 @@ export default function Navbar() {
           isScrolled ? "bg-black/20 backdrop-blur-md" : "bg-transparent"
         }`}
       >
-        {/* Logo */}
         <Link
           href="/"
           aria-label="Marble Group Home"

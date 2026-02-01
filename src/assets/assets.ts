@@ -20,6 +20,8 @@ import aboutImage6 from "./images/about-image-6.jpg";
 import aboutImage7 from "./images/about-image-7.jpg";
 import aboutImage8 from "./images/about-image-8.jpg";
 import aboutImage9 from "./images/about-image-9.jpg";
+import aboutImage10 from './images/about-image-10.jpg';
+import aboutImage11 from './images/about-image-11.jpg';
 import leadershipHero from "./images/leadershipHero.jpg";
 import subsidiariesHero from "./images/subsidiaries-hero.jpg";
 import subsidiariesImage1 from "./images/subsidiaries-image-1.png";
@@ -46,6 +48,7 @@ import operationsImage8 from "./images/operations-image-8.jpg";
 import operationsImage9 from "./images/operations-image-9.jpg";
 import operationsImage10 from "./images/operations-image-10.jpg";
 import operationsImage11 from "./images/operations-image-11.jpg";
+import operationsImage12 from "./images/operations-image-12.jpg";
 import leadershipImage1 from "./images/leadership-image-1.png";
 import leadershipImage2 from "./images/leadership-image-2.png";
 import leadershipImage3 from "./images/leadership-image-3.png";
@@ -104,6 +107,8 @@ export const assets = {
     aboutImage7,
     aboutImage8,
     aboutImage9,
+    aboutImage10,
+    aboutImage11,
     leadershipHero,
     subsidiariesHero,
     subsidiariesImage1,
@@ -129,6 +134,7 @@ export const assets = {
     operationsImage9,
     operationsImage10,
     operationsImage11,
+    operationsImage12,
     leadershipImage1,
     leadershipImage2,
     leadershipImage3,
@@ -162,6 +168,6 @@ export const assets = {
     icon7,
     icon8,
     icon9,
-    icon10
+    icon10,
   },
 };
