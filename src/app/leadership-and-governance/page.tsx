@@ -91,121 +91,69 @@ export default function LeadershipAndGovernance() {
             {/* =========================
             MANAGEMENT GRID
         ========================== */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-end">
-              {/* LEFT LARGE CARD */}
-              <div className="md:row-span-2 flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6 gap-3">
-                {/* IMAGE */}
-                {/* <div className="relative w-44 h-56 rounded-2xl overflow-hidden bg-[#F7F7F7]">
-                  <Image
-                    src={assets.images.leadershipImage3}
-                    alt="President / Chief Executive Officer"
-                    fill
-                    className="object-contain"
-                  />
-                </div> */}
-                <div>
-                  <p className="text-bold text-[#212121] mb-4 ">
-                    Sanusi Muhammed Bello
-                  </p>
-                  <span className="bg-white text-bold p-3 rounded-3xl">
-                    Director
-                  </span>
-                </div>
-              </div>
-
-              {/* TOP ROW */}
-              <div className="flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6 gap-3">
-                {/* <div className="relative w-44 h-44 rounded-2xl overflow-hidden bg-[#F7F7F7]">
-                  <Image
-                    src={assets.images.leadershipImage1}
-                    alt="Chief Operating Officer"
-                    fill
-                    className="object-contain"
-                  />
-                </div> */}
-                <div>
-                  <p className="text-bold text-[#212121] mb-4 ">
+            <div className="w-full flex flex-col gap-8 md:grid md:grid-cols-3 md:gap-8">
+              {/* TOP – CHAIRMAN */}
+              <div className="md:col-span-3 flex justify-center">
+                <div className="w-full md:w-[360px] flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6">
+                  <p className="font-semibold text-[#212121] mb-4">
                     Abdullahi Naziru Abdullahi
                   </p>
-                  <span className="bg-white text-bold p-3 rounded-3xl">
-                    chairman
+                  <span className="bg-white px-4 py-2 rounded-3xl text-sm font-medium">
+                    Chairman
                   </span>
                 </div>
               </div>
 
-              <div className="flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6 gap-3">
-                {/* <div className="relative w-44 h-44 rounded-2xl overflow-hidden bg-[#F7F7F7]">
-                  <Image
-                    src={assets.images.leadershipImage2}
-                    alt="Chief Accountant"
-                    fill
-                    className="object-contain"
-                  />
-                </div> */}
-                <div>
-                  <p className="text-bold text-[#212121] mb-4 ">
-                    Nuhu Umar Jallah
+              {/* MIDDLE ROW */}
+              <div className="flex justify-center md:justify-end">
+                <div className="w-full md:w-[320px] flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6">
+                  <p className="font-semibold text-[#212121] mb-4">
+                    Sanusi Muhammed Bello
                   </p>
-                  <span className="bg-white text-bold p-3 rounded-3xl">
+                  <span className="bg-white px-4 py-2 rounded-3xl text-sm font-medium">
                     Director
                   </span>
                 </div>
               </div>
 
-              {/* RIGHT LARGE CARD */}
-              <div className="md:row-span-2 flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6 gap-3">
-                {/* <div className="relative w-44 h-56 rounded-2xl overflow-hidden bg-[#F7F7F7]">
-                  <Image
-                    src={assets.images.leadershipImage6}
-                    alt="Co-Founder"
-                    fill
-                    className="object-cover"
-                  />
-                </div> */}
-                <div>
-                  <p className="text-bold text-[#212121] mb-4 ">
+              <div className="flex justify-center">
+                <div className="w-full md:w-[320px] flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6">
+                  <p className="font-semibold text-[#212121] mb-4">
+                    Nuhu Umar Jallah
+                  </p>
+                  <span className="bg-white px-4 py-2 rounded-3xl text-sm font-medium">
+                    Director
+                  </span>
+                </div>
+              </div>
+
+              <div className="flex justify-center md:justify-start">
+                <div className="w-full md:w-[320px] flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6">
+                  <p className="font-semibold text-[#212121] mb-4">
                     Khalid Hashimu Dori
                   </p>
-                  <span className="bg-white text-bold p-3 rounded-3xl">
+                  <span className="bg-white px-4 py-2 rounded-3xl text-sm font-medium">
                     Chief Operation Officer
                   </span>
                 </div>
               </div>
 
               {/* BOTTOM ROW */}
-              <div className="flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6 gap-3">
-                {/* <div className="relative w-44 h-44 rounded-2xl overflow-hidden bg-[#F7F7F7]">
-                  <Image
-                    src={assets.images.leadershipImage4}
-                    alt="Secretary"
-                    fill
-                    className="object-contain"
-                  />
-                </div> */}
-                <div>
-                  <p className="text-bold text-[#212121] mb-4 ">
-                    Kabiru Inuwa Muhammad
-                  </p>
-                  <span className="bg-white text-bold p-3 rounded-3xl">
-                    Mining Officer
-                  </span>
-                </div>
-              </div>
-
-              <div className="flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6 gap-3">
-                {/* <div className="relative w-44 h-44 rounded-2xl overflow-hidden bg-[#F7F7F7]">
-                  <Image
-                    src={assets.images.leadershipImage5}
-                    alt="Site Engineer"
-                    fill
-                    className="object-cover"
-                  />
-                </div> */}
-                <div>
-                  <p className="text-bold text-[#212121] mb-4 ">
+              <div className="md:col-span-3 flex justify-center gap-8 flex-col md:flex-row">
+                <div className="w-full md:w-[320px] flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6">
+                  <p className="font-semibold text-[#212121] mb-4">
                     Abdulrahman Aliyu Muhammad
                   </p>
-                  <span className="bg-white text-bold p-3 rounded-3xl">
+                  <span className="bg-white px-4 py-2 rounded-3xl text-sm font-medium">
+                    Plant Manager
+                  </span>
+                </div>
+
+                <div className="w-full md:w-[320px] flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6">
+                  <p className="font-semibold text-[#212121] mb-4">
+                    Kabiru Inuwa Muhammad
+                  </p>
+                  <span className="bg-white px-4 py-2 rounded-3xl text-sm font-medium">
                     Mining Officer
                   </span>
                 </div>
