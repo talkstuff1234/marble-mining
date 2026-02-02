@@ -64,7 +64,7 @@ export default function LeadershipAndGovernance() {
             <div className="mt-6 space-y-4 max-w-2xl mx-auto">
               <p className="text-white/80 text-sm md:text-base">
                 Effective leadership and sound governance are central to
-                responsible mining at Westlands Minerals & Mining Ltd.
+                responsible mining at Westland Minerals & Mining Ltd.
               </p>
             </div>
           </div>
@@ -198,7 +198,7 @@ export default function LeadershipAndGovernance() {
                 Ethics & Compliance
               </h4>
               <p className="text-sm text-[#6A6A6A] mt-1">
-                Westlands Minerals & Mining Ltd maintains zero tolerance for
+                Westland Minerals & Mining Ltd maintains zero tolerance for
                 unethical conduct and is committed to full regulatory compliance
               </p>
             </div>

@@ -64,7 +64,7 @@ export default function OperationsAndProjects() {
 
             <div className="mt-6 space-y-4 max-w-2xl mx-auto">
               <p className="text-white/80 text-sm md:text-base">
-                Westlands Minerals & Mining Ltd advances mineral opportunities
+                Westland Minerals & Mining Ltd advances mineral opportunities
                 across Nigeria&apos;s most prospective geological regions, with
                 a strategic focus on critical and industrial minerals that
                 support power infrastructure, clean energy, and industrial
@@ -100,7 +100,7 @@ export default function OperationsAndProjects() {
               </p>
 
               <p className="mt-6 text-sm leading-relaxed text-[#4A4A4A]">
-                Westlands Minerals & Mining Ltd maintains active operating bases
+                Westland Minerals & Mining Ltd maintains active operating bases
                 across key mineral-rich regions in Nigeria, with additional
                 cross-border activities extending into Cameroon to support
                 regional mineral supply and trade.
@@ -240,7 +240,7 @@ export default function OperationsAndProjects() {
               </h2>
 
               <p className="mt-4 text-[#6A6A6A] max-w-lg">
-                Westlands Minerals & Mining Ltd advances opportunities through:
+                Westland Minerals & Mining Ltd advances opportunities through:
               </p>
 
               <ul className="mt-6 space-y-4">
@@ -378,7 +378,7 @@ export default function OperationsAndProjects() {
               </h2>
 
               <p className="mt-4 text-[#6A6A6A] max-w-lg">
-                The mineral focus of Westlands Minerals & Mining Ltd includes:
+                The mineral focus of Westland Minerals & Mining Ltd includes:
               </p>
 
               <ul className="mt-6 space-y-4">
@@ -429,7 +429,7 @@ export default function OperationsAndProjects() {
               </h2>
 
               <p className="mt-4 text-[#6A6A6A] max-w-lg">
-                Nigeria hosts an emerging copper belt spanning Zamfara, Kaduna,
+                Nigeria hosts an emerging copper belt spanning Zamfara, Jos,
                 Plateau, Nasarawa, Benue, and Bauchi States. Copper
                 mineralization may occur as chalcopyrite, bornite, and
                 malachite, subject to technical and regulatory evaluation.
@@ -531,7 +531,7 @@ export default function OperationsAndProjects() {
                 </li>
               </ul>
               <p className="mt-4 text-[#6A6A6A] max-w-lg">
-                Westlands Minerals & Mining Ltd evaluates such pathways in line
+                Westland Minerals & Mining Ltd evaluates such pathways in line
                 with feasibility, approvals, and infrastructure access.
               </p>
             </div>

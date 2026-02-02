@@ -279,7 +279,7 @@ export default function About() {
               A Disciplined, Nigeria-Focused Growth Strategy
             </p>
             <p className="text-sm text-[#6A6A6A] mt-1">
-              Westlands Minerals & Mining Ltd operates with a strategy aligned
+              Westland Minerals & Mining Ltd operates with a strategy aligned
               with Nigeria&apos;s mining sector reforms, emphasizing disciplined
               opportunity selection, operational excellence, responsible growth,
               and long-term value creation.
@@ -323,7 +323,7 @@ export default function About() {
               Health, Safety & People
             </h4>
             <p className="text-sm text-[#6A6A6A] mt-1">
-              Westlands Minerals & Mining Ltd prioritizes safe and healthy
+              Westland Minerals & Mining Ltd prioritizes safe and healthy
               working environments through clear safety procedures, training,
               leadership accountability, and continuous improvement.
             </p>

@@ -66,13 +66,13 @@ export default function HomePage() {
 
             <div className="mt-6 space-y-4 max-w-2xl">
               <p className="text-white/80 text-sm md:text-base">
-                Westlands Minerals & Mining Ltd is a Nigeria-based mining
-                company headquartered in Kaduna, focused on the responsible
-                exploration and development of mineral resources across
-                strategic regions of the country.
+                Westland Minerals & Mining Ltd is a Nigeria-based mining company
+                headquartered in Jos, focused on the responsible exploration
+                and development of mineral resources across strategic regions of
+                the country.
               </p>
               <p className="text-white/80 text-sm md:text-base">
-                Westlands Minerals & Mining Ltd is committed to disciplined
+                Westland Minerals & Mining Ltd is committed to disciplined
                 mining practices, regulatory compliance, and sustainable value
                 creation that supports Nigeria&apos;s economic growth and
                 industrial development.
@@ -117,7 +117,7 @@ export default function HomePage() {
             <div className="p-6 rounded-2xl border border-[#E4E4E6] bg-[#FCFCFC] hover:shadow-lg transition-shadow duration-300">
               <Image src={assets.icons.icon2} alt="icon 2" />
               <p className="text-sm text-[#2B2A28] mt-4">
-                Nigeria-based operator headquartered in Kaduna
+                Nigeria-based operator headquartered in Jos
               </p>
             </div>
 
@@ -209,7 +209,7 @@ export default function HomePage() {
               </h2>
 
               <p className="text-[#6A6A6A] mb-8">
-                Westlands Minerals & Mining Ltd advances mineral opportunities
+                Westland Minerals & Mining Ltd advances mineral opportunities
                 across Nigeria through disciplined regulatory and technical
                 evaluation. The company focuses on assets with strong geological
                 fundamentals and long-term development potential, supported by
@@ -243,7 +243,7 @@ export default function HomePage() {
               </p>
 
               <p className="mt-4 text-[#6A6A6A] max-w-lg">
-                The headquarters of Westlands Minerals & Mining Ltd in Kaduna
+                The headquarters of Westland Minerals & Mining Ltd in Jos
                 positions the company within a corridor connecting multiple
                 mineralized states. This central location supports operational
                 efficiency, workforce development, and the potential for future
@@ -343,7 +343,7 @@ export default function HomePage() {
               </h2>
 
               <p className="mt-4 text-[#6A6A6A] max-w-lg">
-                Westlands Minerals & Mining Ltd is positioned within mineral
+                Westland Minerals & Mining Ltd is positioned within mineral
                 value chains that support power generation and transmission,
                 renewable energy infrastructure, energy storage systems, and
                 industrial manufacturing. This positioning reflects a long-term
@@ -383,7 +383,7 @@ export default function HomePage() {
           </h2>
 
           <p className="mt-4 max-w-3xl mx-auto text-neutral-300">
-            Responsible mining is central to how Westlands Minerals & Mining Ltd
+            Responsible mining is central to how Westland Minerals & Mining Ltd
             operates. The company&apos;s approach integrates:
           </p>
 
@@ -476,7 +476,7 @@ export default function HomePage() {
                   Beneficiation & Value Addition
                 </h4>
                 <p className="mt-2 text-xs text-neutral-600">
-                  Westlands Minerals & Mining Ltd recognizes that raw mineral
+                  Westland Minerals & Mining Ltd recognizes that raw mineral
                   extraction alone does not unlock full economic value. The
                   company actively invests in beneficiation infrastructure.
                 </p>
@@ -499,7 +499,7 @@ export default function HomePage() {
                   Leadership & Governance
                 </h4>
                 <p className="mt-2 text-xs text-neutral-600">
-                  Westlands Minerals & Mining Ltd operates under a robust
+                  Westland Minerals & Mining Ltd operates under a robust
                   governance framework designed to promote accountability,
                   transparency, and responsible decision-making.
                 </p>
@@ -530,7 +530,7 @@ export default function HomePage() {
                   Community & Local Impact
                 </h4>
                 <p className="mt-2 text-xs text-neutral-600">
-                  Westlands Minerals & Mining Ltd engages respectfully with host
+                  Westland Minerals & Mining Ltd engages respectfully with host
                   communities, ensuring shared value creation and long-term
                   socio-economic benefits.
                 </p>

@@ -62,7 +62,7 @@ export default function Subsidiaries() {
 
             <div className="mt-6 space-y-4 max-w-2xl mx-auto">
               <p className="text-white/80 text-sm md:text-base">
-                Sustainability is integral to how Westlands Minerals & Mining
+                Sustainability is integral to how Westland Minerals & Mining
                 Ltd operates and grows, supporting long-term value creation and
                 social license to operate.
               </p>
@@ -144,7 +144,7 @@ export default function Subsidiaries() {
               </h2>
 
               <p className="mt-4 text-[#6A6A6A] max-w-lg">
-                Westlands Minerals & Mining Ltd supports Nigerian participation
+                Westland Minerals & Mining Ltd supports Nigerian participation
                 through local hiring, procurement, and skills transfer.
               </p>
             </div>
@@ -184,7 +184,7 @@ export default function Subsidiaries() {
               </h2>
 
               <p className="mt-4 text-[#6A6A6A] max-w-lg">
-                Westlands Minerals & Mining Ltd prioritizes the health and
+                Westland Minerals & Mining Ltd prioritizes the health and
                 safety of all personnel through rigorous safety protocols,
                 regular training, risk assessments, and a culture of zero harm.
                 All operations adhere to national safety standards and
