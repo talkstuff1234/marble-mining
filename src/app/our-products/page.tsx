@@ -108,12 +108,12 @@ export default function Products() {
                   priority
                 />
 
-                {/* Overlay grid lines */}
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px]" />
+                {/* Overlay grid lines - Hide on mobile */}
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px] hidden md:block" />
               </div>
 
-              {/* Floating card – left */}
-              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float">
+              {/* Floating card – left - Hide on mobile */}
+              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float hidden md:block">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.productsImage1}
@@ -125,8 +125,8 @@ export default function Products() {
                 </div>
               </div>
 
-              {/* Floating card – right */}
-              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed">
+              {/* Floating card – right - Hide on mobile */}
+              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed hidden md:block">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.productsImage3}
@@ -379,12 +379,12 @@ export default function Products() {
                   priority
                 />
 
-                {/* Overlay grid lines */}
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px]" />
+                {/* Overlay grid lines - Hide on mobile */}
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px] hidden md:block" />
               </div>
 
-              {/* Floating card – left */}
-              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float">
+              {/* Floating card – left - Hide on mobile */}
+              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float hidden md:block">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.productsImage5}
@@ -396,8 +396,8 @@ export default function Products() {
                 </div>
               </div>
 
-              {/* Floating card – right */}
-              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed">
+              {/* Floating card – right - Hide on mobile */}
+              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed hidden md:block">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.productsImage7}
@@ -592,12 +592,12 @@ export default function Products() {
                   priority
                 />
 
-                {/* Overlay grid lines */}
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px]" />
+                {/* Overlay grid lines - Hide on mobile */}
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px] hidden md:block" />
               </div>
 
-              {/* Floating card – left */}
-              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float">
+              {/* Floating card – left - Hide on mobile */}
+              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float hidden md:block">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.productsImage9}
@@ -609,8 +609,8 @@ export default function Products() {
                 </div>
               </div>
 
-              {/* Floating card – right */}
-              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed">
+              {/* Floating card – right - Hide on mobile */}
+              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed hidden md:block">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.productsImage11}

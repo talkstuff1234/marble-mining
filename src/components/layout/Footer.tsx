@@ -118,7 +118,12 @@ function Footer() {
         {/* BOTTOM */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-[#6A6A6A]">
           <span>© 2026 Westland Minerals & Mining Ltd</span>
-
+          <span>
+            Created by{" "}
+            <a href="https://www.talkstuff.social/" className="text-[#867A33]">
+              Talkstuff
+            </a>
+          </span>
           <div className="flex gap-6">
             <Link href="/terms" className="hover:text-black transition">
               Terms of Service

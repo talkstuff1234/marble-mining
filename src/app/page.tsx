@@ -67,9 +67,9 @@ export default function HomePage() {
             <div className="mt-6 space-y-4 max-w-2xl">
               <p className="text-white/80 text-sm md:text-base">
                 Westland Minerals & Mining Ltd is a Nigeria-based mining company
-                headquartered in Jos, focused on the responsible exploration
-                and development of mineral resources across strategic regions of
-                the country.
+                headquartered in Jos, focused on the responsible exploration and
+                development of mineral resources across strategic regions of the
+                country.
               </p>
               <p className="text-white/80 text-sm md:text-base">
                 Westland Minerals & Mining Ltd is committed to disciplined
@@ -177,7 +177,7 @@ export default function HomePage() {
               </div>
 
               {/* Floating card – left */}
-              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float">
+              <div className="absolute top-10 hidden md:block left-30 md:-left-4 z-20 animate-float">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.homeImage3}
@@ -190,7 +190,7 @@ export default function HomePage() {
               </div>
 
               {/* Floating card – right */}
-              <div className="absolute top-1/2 right-0 md:-right-8 z-20 animate-float-delayed">
+              <div className="absolute top-1/2 hidden md:block right-0 md:-right-8 z-20 animate-float-delayed">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.homeImage2}

@@ -107,9 +107,9 @@ export default function OperationsAndProjects() {
               </p>
 
               <p className="mt-4 text-sm leading-relaxed text-[#4A4A4A]">
-                The company’s operating footprint reflects a focus on minerals
-                critical to infrastructure, industrial manufacturing, energy
-                systems, and strategic supply chains.
+                The company&apos;s operating footprint reflects a focus on
+                minerals critical to infrastructure, industrial manufacturing,
+                energy systems, and strategic supply chains.
               </p>
             </div>
           </div>
@@ -169,7 +169,7 @@ export default function OperationsAndProjects() {
               <h4 className="text-sm font-medium text-[#212121]">Cameroon</h4>
               <p className="mt-2 text-sm text-[#6A6A6A] leading-relaxed">
                 Cross-border mineral sourcing and regional supply activities
-                supporting Westland Minerals & Mining Ltd’s broader
+                supporting Westland Minerals & Mining Ltd&apos;s broader
                 Africa-focused operations.
               </p>
             </div>
@@ -206,7 +206,7 @@ export default function OperationsAndProjects() {
               </ul>
 
               <p className="mt-6 text-sm text-[#6A6A6A] leading-relaxed">
-                Westland Minerals & Mining Ltd’s operations are managed in
+                Westland Minerals & Mining Ltd&apos;s operations are managed in
                 accordance with applicable regulatory frameworks, with a strong
                 emphasis on safety, environmental responsibility, and community
                 engagement.
@@ -287,12 +287,12 @@ export default function OperationsAndProjects() {
                   priority
                 />
 
-                {/* Overlay grid lines */}
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px]" />
+                {/* Overlay grid lines - Hide on mobile */}
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px] hidden md:block" />
               </div>
 
-              {/* Floating card – left */}
-              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float">
+              {/* Floating card – left - Hide on mobile */}
+              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float hidden md:block">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.homeImage3}
@@ -304,8 +304,8 @@ export default function OperationsAndProjects() {
                 </div>
               </div>
 
-              {/* Floating card – right */}
-              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed">
+              {/* Floating card – right - Hide on mobile */}
+              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed hidden md:block">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.homeImage2}
@@ -341,12 +341,12 @@ export default function OperationsAndProjects() {
                   priority
                 />
 
-                {/* Overlay grid lines */}
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px]" />
+                {/* Overlay grid lines - Hide on mobile */}
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px] hidden md:block" />
               </div>
 
-              {/* Floating card – left */}
-              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float">
+              {/* Floating card – left - Hide on mobile */}
+              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float hidden md:block">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.operationsImage3}
@@ -358,8 +358,8 @@ export default function OperationsAndProjects() {
                 </div>
               </div>
 
-              {/* Floating card – right */}
-              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed">
+              {/* Floating card – right - Hide on mobile */}
+              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed hidden md:block">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.operationsImage5}
@@ -466,12 +466,12 @@ export default function OperationsAndProjects() {
                   priority
                 />
 
-                {/* Overlay grid lines */}
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px]" />
+                {/* Overlay grid lines - Hide on mobile */}
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px] hidden md:block" />
               </div>
 
-              {/* Floating card – left */}
-              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float">
+              {/* Floating card – left - Hide on mobile */}
+              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float hidden md:block">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.operationsImage10}
@@ -483,8 +483,8 @@ export default function OperationsAndProjects() {
                 </div>
               </div>
 
-              {/* Floating card – right */}
-              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed">
+              {/* Floating card – right - Hide on mobile */}
+              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed hidden md:block">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.operationsImage9}
@@ -595,12 +595,12 @@ export default function OperationsAndProjects() {
                   priority
                 />
 
-                {/* Overlay grid lines */}
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px]" />
+                {/* Overlay grid lines - Hide on mobile */}
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px] hidden md:block" />
               </div>
 
-              {/* Floating card – left */}
-              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float">
+              {/* Floating card – left - Hide on mobile */}
+              <div className="absolute top-10 left-30 md:-left-4 z-20 animate-float hidden md:block">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.homeImage9}
@@ -612,8 +612,8 @@ export default function OperationsAndProjects() {
                 </div>
               </div>
 
-              {/* Floating card – right */}
-              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed">
+              {/* Floating card – right - Hide on mobile */}
+              <div className="absolute top-1/4 right-0 md:-right-8 z-20 animate-float-delayed hidden md:block">
                 <div className="rounded-2xl overflow-hidden shadow-xl bg-white hover:scale-105 transition-transform duration-300">
                   <Image
                     src={assets.images.operationsImage8}
