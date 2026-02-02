@@ -92,7 +92,7 @@ function Footer() {
               </h4>
 
               <p className="text-sm text-[#6A6A6A] leading-relaxed mb-4">
-                Subscribe to get the latest update about Western Mining
+                Subscribe to get the latest update about Westland Mining
               </p>
 
               <form className="flex items-center border border-[#D1D5DB] rounded-md overflow-hidden bg-white">
@@ -117,7 +117,7 @@ function Footer() {
 
         {/* BOTTOM */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-[#6A6A6A]">
-          <span>© 2026 Westlands Minerals & Mining Ltd</span>
+          <span>© 2026 Westland Minerals & Mining Ltd</span>
 
           <div className="flex gap-6">
             <Link href="/terms" className="hover:text-black transition">

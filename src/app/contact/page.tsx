@@ -76,7 +76,7 @@ export default function ContactPage() {
                 <div>
                   <p className="font-medium">Office Address</p>
                   <p className="text-white/70 mt-1">
-                    No 1 old airport road, jos plateau pmb 2722 Nigeria
+                    No. 1 Old Airport Rd., Jos, Plateau State, PMB 2722, Nigeria
                   </p>
                 </div>
 

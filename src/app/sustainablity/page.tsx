@@ -57,7 +57,7 @@ export default function Subsidiaries() {
 
           <div className="relative z-10 max-w-5xl p-6 flex flex-col">
             <h1 className="text-white text-3xl md:text-5xl font-light leading-tight max-w-3xl mx-auto">
-              Our Committment
+              Our Commitment
             </h1>
 
             <div className="mt-6 space-y-4 max-w-2xl mx-auto">
