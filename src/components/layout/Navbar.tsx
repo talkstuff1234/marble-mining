@@ -81,7 +81,7 @@ export default function Navbar() {
         >
           <span className="bg-white rounded-full p-2 shadow-lg flex items-center justify-center">
             <Image
-              src={assets.icons.logo}
+              src={assets.images.newLogoImage}
               alt="Marble Group Logo"
               width={160}
               height={48}

@@ -20,8 +20,8 @@ import aboutImage6 from "./images/about-image-6.jpg";
 import aboutImage7 from "./images/about-image-7.jpg";
 import aboutImage8 from "./images/about-image-8.jpg";
 import aboutImage9 from "./images/about-image-9.jpg";
-import aboutImage10 from './images/about-image-10.jpg';
-import aboutImage11 from './images/about-image-11.jpg';
+import aboutImage10 from "./images/about-image-10.jpg";
+import aboutImage11 from "./images/about-image-11.jpg";
 import leadershipHero from "./images/leadershipHero.jpg";
 import subsidiariesHero from "./images/subsidiaries-hero.jpg";
 import subsidiariesImage1 from "./images/subsidiaries-image-1.png";
@@ -68,6 +68,7 @@ import productsImage9 from "./images/products-image-9.png";
 import productsImage10 from "./images/products-image-10.png";
 import productsImage11 from "./images/products-image-11.png";
 import mapBase from "./images/mapbase.png";
+import newLogoImage from "./images/logo-image.png";
 
 //icons
 import logo from "./icons/logo.svg";
@@ -82,7 +83,7 @@ import icon6 from "./icons/icon-6.svg";
 import icon7 from "./icons/icon-7.svg";
 import icon8 from "./icons/icon-8.svg";
 import icon9 from "./icons/icon-9.svg";
-import icon10 from './icons/icon-10.svg';
+import icon10 from "./icons/icon-10.svg";
 
 export const assets = {
   images: {
@@ -154,6 +155,7 @@ export const assets = {
     productsImage10,
     productsImage11,
     mapBase,
+    newLogoImage,
   },
   icons: {
     logo,

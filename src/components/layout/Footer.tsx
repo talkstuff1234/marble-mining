@@ -11,7 +11,7 @@ function Footer() {
         <div className="flex flex-col lg:flex-row justify-between gap-14">
           {/* LEFT */}
           <div className="max-w-sm">
-            <Image src={assets.icons.logo} alt="logo" width={110} />
+            <Image src={assets.images.newLogoImage} alt="logo" width={110} />
             <p className="mt-4 text-sm text-[#6A6A6A] leading-relaxed">
               Westlands Minerals & Mining Ltd is focused on the responsible
               exploration and development of mineral resources across strategic
