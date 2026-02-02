@@ -13,7 +13,7 @@ function Footer() {
           <div className="max-w-sm">
             <Image src={assets.images.newLogoImage} alt="logo" width={110} />
             <p className="mt-4 text-sm text-[#6A6A6A] leading-relaxed">
-              Westlands Minerals & Mining Ltd is focused on the responsible
+              Westland Minerals & Mining Ltd is focused on the responsible
               exploration and development of mineral resources across strategic
               regions of the country.
             </p>
