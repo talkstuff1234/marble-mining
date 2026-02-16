@@ -115,8 +115,17 @@ export default function LeadershipAndGovernance() {
                   </span>
                 </div>
               </div>
-
               <div className="flex justify-center">
+                <div className="w-full md:w-[320px] flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6">
+                  <p className="font-semibold text-[#212121] mb-4">
+                    Sanusi Muhammad
+                  </p>
+                  <span className="bg-white px-4 py-2 rounded-3xl text-sm font-medium">
+                    Director
+                  </span>
+                </div>
+              </div>
+              <div className="flex justify-center md:justify-start">
                 <div className="w-full md:w-[320px] flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6">
                   <p className="font-semibold text-[#212121] mb-4">
                     Nuhu Umar Jallah
@@ -127,7 +136,8 @@ export default function LeadershipAndGovernance() {
                 </div>
               </div>
 
-              <div className="flex justify-center md:justify-start">
+              {/* BOTTOM ROW */}
+              <div className="md:col-span-3 flex justify-center gap-8 flex-col md:flex-row">
                 <div className="w-full md:w-[320px] flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6">
                   <p className="font-semibold text-[#212121] mb-4">
                     Khalid Hashimu Dori
@@ -136,10 +146,6 @@ export default function LeadershipAndGovernance() {
                     Chief Operation Officer
                   </span>
                 </div>
-              </div>
-
-              {/* BOTTOM ROW */}
-              <div className="md:col-span-3 flex justify-center gap-8 flex-col md:flex-row">
                 <div className="w-full md:w-[320px] flex flex-col items-center text-center bg-[#F7F7F7] rounded-3xl p-6">
                   <p className="font-semibold text-[#212121] mb-4">
                     Abdulrahman Aliyu Muhammad
